@@ -1,1 +1,1 @@
-# JavaScript-30-Days-Challenge
+# JavaScript 30 Days Challenge With Web 3.0 & Metaverse Slides!
