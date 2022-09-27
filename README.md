@@ -1,1 +1,1 @@
-# JavaScript 30 Days Challenge Projects With Web 3.0 And Metaverse Slides!
+# ERC 20 Token!
