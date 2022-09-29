@@ -9,7 +9,11 @@ else {
     console.log(persons);
 }
 
+alert('I Found Bigger Dinner Table!');
+
+persons.push("Suleman", "Usama", "Shahid");
+
 for (var i = 0; i < persons.length; i++) {
     const message = persons[i];
-    document.write(`<h2>${message} Dinner Tonight is at my Home!.</h2>`);
+    document.write(`<h4>${message} Dinner Tonight is at my Home!.</h4>`);
 }
