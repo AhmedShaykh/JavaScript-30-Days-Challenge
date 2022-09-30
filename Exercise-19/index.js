@@ -1,5 +1,4 @@
 let persons = ["Junaid", "Haris", "Ahsan"];
-
 let index = persons.indexOf("Haris");
 
 if (index == 1) {
@@ -9,11 +8,15 @@ else {
     console.log(persons);
 }
 
-console.log('I Found Bigger Dinner Table!');
-
 persons.push("Suleman", "Usama", "Shahid");
 
+let remove = persons.length;
+
+for (let i = remove; i > 2; i--) {
+    persons.pop()
+}
+
 for (var i = 0; i < persons.length; i++) {
-    const message = persons[i];
-    document.write(`<h4>${message} Dinner Tonight is at my Home!.</h4>`);
+    var message = persons[i];
+    document.write(`<h1>${message} Dinner Tonight is at my Home!.</h1>`);
 }
