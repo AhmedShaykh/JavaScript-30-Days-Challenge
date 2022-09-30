@@ -1,14 +1,8 @@
-const mission = "Green";
+const alien = "Green";
 
-if (mission == "Green") {
-    document.write(`<h1>Pakistan Zindabad</h1>`);
-}
-else if (mission == "Red") {
-    document.write(`<h1>Turkiye Zindabad</h1>`);
-}
-else if (mission == "Yellow") {
-    document.write(`<h1>Ottomon Empire!</h1>`);
+if (alien == "Green") {
+    console.log("The Player Just Earned 5 Points!");
 }
 else {
-    console.log(`Error 404`);
+    console.log("Player Fail");
 }
