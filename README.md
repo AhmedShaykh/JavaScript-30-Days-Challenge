@@ -1,1 +1,1 @@
-# JavaScript With Node.JS Exercises!
+# Panaverse JavaScript Assignments!
